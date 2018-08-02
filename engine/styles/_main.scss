@@ -24,15 +24,8 @@ span[title] {
 }
 
 .navbar {
+	font-family: 'Roboto Condensed', sans-serif;
 	text-transform: uppercase;
-	.navbar-menu {
-		.navbar-start,
-		.navbar-end {
-			> .navbar-item {
-				font-family: 'Roboto Condensed', sans-serif;
-			}
-		}
-	}
 }
 
 #section-main {
