@@ -6,9 +6,7 @@
  */
 
 function extJS_scrollToID() {
-	let button;
-
-	button = $('.ext-scroll');
+	const button = $('.ext-scroll');
 
 	button.on('click', (function (e) {
 		e.preventDefault();
@@ -25,9 +23,7 @@ function extJS_scrollToID() {
 
 function extJS_scrollToTop() {
 	$(window).on('scroll', function () {
-		let button;
-
-		button = '#scrollToTop';
+		const button = '#scrollToTop';
 
 		if ($(this).scrollTop() > 400) {
 			$(button).fadeIn();
